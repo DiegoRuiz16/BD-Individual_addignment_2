@@ -1,0 +1,25 @@
+date: 2026-10-30T12:41:39Z
+== Hardware and OS ==
+Name                      : 12th Gen Intel(R) Core(TM) i7-12700H
+NumberOfCores             : 14
+NumberOfLogicalProcessors : 20
+MaxClockSpeed             : 2700
+L2CacheSize               : 11776
+L3CacheSize               : 24576
+
+
+
+RAM (GiB): 31.7
+OS: Microsoft Windows 11 Home 10.0.26300
+platform: Windows-11-10.0.26300-SP0
+== Power plan ==
+Power Scheme GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (High performance)
+== Toolchain ==
+gcc (Rev5, Built by MSYS2 project) 16.1.0
+CFLAGS: -O2 -std=c11 -Wall -Wextra (no -march, no -ffast-math)
+CPython 3.12.10
+numpy 2.5.4 (input generation / reference)
+scipy 1.18.1 (reference nnz count only)
+matplotlib 3.11.2
+== Threads ==
+All benchmarked programs are single-threaded C (no OpenMP, no BLAS).

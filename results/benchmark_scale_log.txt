@@ -1,0 +1,24 @@
+[14:24:54] scale csr n=4096 uniform d=0.001 block= batch=1 w=2 r=5 uniform_d0.001
+    -> ok rss=5748 kB nnz_c=67937 wall=0.0 s median=0.0010 s
+[14:24:54] scale csr n=8192 uniform d=0.001 block= batch=1 w=2 r=5 uniform_d0.001
+    -> ok rss=12696 kB nnz_c=545882 wall=0.1 s median=0.0064 s
+[14:24:55] scale csr n=16384 uniform d=0.001 block= batch=1 w=2 r=5 uniform_d0.001
+    -> ok rss=62356 kB nnz_c=4354438 wall=0.5 s median=0.0518 s
+[14:24:56] scale csr n=32768 uniform d=0.001 block= batch=1 w=2 r=5 uniform_d0.001
+    -> ok rss=437264 kB nnz_c=34677760 wall=4.0 s median=0.4730 s
+[14:25:04] scale csr n=65536 uniform d=0.001 block= batch=1 w=2 r=5 uniform_d0.001
+    -> ok rss=3301172 kB nnz_c=272513933 wall=42.1 s median=5.3302 s
+[14:25:57] scale csr n=131072 uniform d=0.001 block= batch=1 w=2 r=5 uniform_d0.001
+out of memory (8443426548 bytes)
+    -> memory_failure rss= kB nnz_c= wall=10.0 s median=nan s
+[14:26:08] scale csr n=16384 uniform d=0.000976562 block= batch=1 w=2 r=5 uniform_16_per_row
+    -> ok rss=59720 kB nnz_c=4142841 wall=0.5 s median=0.0511 s
+[14:26:12] scale csr n=65536 uniform d=0.000244141 block= batch=1 w=2 r=5 uniform_16_per_row
+    -> ok rss=227364 kB nnz_c=16711616 wall=2.7 s median=0.3579 s
+[14:26:29] scale csr n=262144 uniform d=6.10352e-05 block= batch=1 w=2 r=5 uniform_16_per_row
+    -> ok rss=898208 kB nnz_c=67012009 wall=19.0 s median=2.6827 s
+[14:27:47] scale csr n=1048576 uniform d=1.52588e-05 block= batch=1 w=2 r=5 uniform_16_per_row
+    -> ok rss=3583608 kB nnz_c=268375818 wall=105.5 s median=14.6720 s
+[14:31:31] scale csr n=2097152 uniform d=7.62939e-06 block= batch=1 w=2 r=5 uniform_16_per_row
+out of memory (4293333648 bytes)
+    -> memory_failure rss= kB nnz_c= wall=11.5 s median=nan s

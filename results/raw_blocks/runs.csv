@@ -1,0 +1,11 @@
+study,method,n,distribution,density_target,block,status,warmup,reps,batch,nnz_a,nnz_b,nnz_c,csr_bytes,peak_rss_kb,process_wall_s,note
+blocks,blocked,2048,dense,1,32,ok,2,5,1,,,,,102696,44.328,
+blocks,blocked,2048,dense,1,64,ok,2,5,1,,,,,102696,47.906,
+blocks,blocked,2048,dense,1,128,ok,2,5,1,,,,,102696,47.219,
+blocks,blocked,2048,dense,1,256,ok,2,5,1,,,,,102700,42.078,
+blocks,blocked,2048,dense,1,512,ok,2,5,1,,,,,102804,42.625,
+blocks,blocked_unroll,2048,dense,1,32,ok,2,5,1,,,,,102808,32.344,
+blocks,blocked_unroll,2048,dense,1,64,ok,2,5,1,,,,,102696,34.500,
+blocks,blocked_unroll,2048,dense,1,128,ok,2,5,1,,,,,102692,33.141,
+blocks,blocked_unroll,2048,dense,1,256,ok,2,5,1,,,,,102696,38.250,
+blocks,blocked_unroll,2048,dense,1,512,ok,2,5,1,,,,,102696,31.094,

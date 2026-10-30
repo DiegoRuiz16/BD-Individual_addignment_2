@@ -1,0 +1,20 @@
+@page { size: A4; margin: 18mm 17mm 18mm 17mm; }
+body { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 10.5pt; line-height: 1.38; color: #111; max-width: none; margin: 0; }
+header { text-align: center; margin-bottom: 1.2em; }
+h1.title { font-size: 16pt; margin: 0 0 .3em; line-height: 1.25; }
+p.subtitle { font-size: 11pt; margin: 0 0 .3em; font-style: italic; }
+p.author { font-size: 10pt; margin: 0; color: #333; }
+h2 { font-size: 12.5pt; margin: 1.2em 0 .4em; border-bottom: 1px solid #bbb; padding-bottom: 2px; }
+h3 { font-size: 11pt; margin: 1em 0 .3em; }
+p { margin: .45em 0; text-align: justify; }
+table { border-collapse: collapse; margin: .6em auto; font-size: 8.6pt; }
+tr { page-break-inside: avoid; }
+th, td { border-bottom: 1px solid #ccc; padding: 2px 6px; }
+th { border-bottom: 1.5px solid #555; background: #f3f3f3; }
+code { font-family: "Liberation Mono", monospace; font-size: 8.8pt; }
+figure { margin: .8em 0; text-align: center; page-break-inside: avoid; }
+figure img { max-width: 70%; }
+figure img[style*="100%"], figure img[width="100%"] { max-width: 100%; width: 100%; }
+figcaption { font-size: 9pt; color: #333; margin-top: .2em; text-align: left; padding: 0 6%; }
+ul, ol { margin: .3em 0 .3em 1.2em; padding-left: 1em; }
+li { margin: .15em 0; }

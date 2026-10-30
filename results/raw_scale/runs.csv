@@ -1,0 +1,12 @@
+study,method,n,distribution,density_target,block,status,warmup,reps,batch,nnz_a,nnz_b,nnz_c,csr_bytes,peak_rss_kb,process_wall_s,note
+scale,csr,4096,uniform,0.001,,ok,2,5,1,16758,16754,67937,1381252,5748,0.047,uniform_d0.001
+scale,csr,8192,uniform,0.001,,ok,2,5,1,67055,67113,545882,8488304,12696,0.094,uniform_d0.001
+scale,csr,16384,uniform,0.001,,ok,2,5,1,268527,267743,4354438,59343880,62356,0.453,uniform_d0.001
+scale,csr,32768,uniform,0.001,,ok,2,5,1,1074936,1074445,34677760,443236436,437264,3.968,uniform_d0.001
+scale,csr,65536,uniform,0.001,,ok,2,5,1,4293150,4297761,272513933,3375879592,3301172,42.140,uniform_d0.001
+scale,csr,131072,uniform,0.001,,memory_failure,2,5,1,,,,,,9.953,uniform_d0.001
+scale,csr,16384,uniform,0.000976562,,ok,2,5,1,260922,261996,4142841,56644492,59720,0.485,uniform_16_per_row
+scale,csr,65536,uniform,0.000244141,,ok,2,5,1,1046328,1048692,16711616,228301096,227364,2.735,uniform_16_per_row
+scale,csr,262144,uniform,6.10352e-05,,ok,2,5,1,4191647,4193074,67012009,915246544,898208,19.000,uniform_16_per_row
+scale,csr,1048576,uniform,1.52588e-05,,ok,2,5,1,16776514,16776383,268375818,3665087644,3583608,105.531,uniform_16_per_row
+scale,csr,2097152,uniform,7.62939e-06,,memory_failure,2,5,1,,,,,,11.500,uniform_16_per_row

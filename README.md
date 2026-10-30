@@ -64,6 +64,11 @@ python scripts\run_all.py           # whole study, about 1-1.5 h; keep the lapto
 methods is the one with the lowest median time in the tile sweep (saved in
 `results/chosen_tile.txt`). A finished study is skipped if the script is started again.
 
+Main results on the measurement machine (Intel Core i7-12700H, Windows 11, whole run 110 min):
+`blocked_unroll` (tile 512) is the fastest dense method at every n (13.0x the baseline at
+n = 2048, 3.8-4.3 GFLOP/s); the CSR kernel beats it up to 20 % density for uniform inputs and up
+to 44 % for banded inputs, and loses from 50 % and 61 % respectively. Details in the report.
+
 Run one configuration by hand:
 
 ```powershell
